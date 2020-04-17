@@ -46,7 +46,7 @@ vector<vector<int> > todosIguales(int num, int sizeX, int sizeY){// devuelve una
 	return vector<vector<int> >(sizeX, vector<int>(sizeY, num));
 }
 
-vector<vector<int> > elementoEstructurante(int size){// devuelve un elemento estructurante de tamaño size
+vector<vector<int> > elementoEstructurante(int size){// devuelve un elemento estructurante de tamaÃ±o size
 	return vector<vector<int> > (size, vector<int>(size, 1));
 }
 
