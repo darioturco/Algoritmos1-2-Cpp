@@ -1,0 +1,6 @@
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/edit_cache.dir
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/gtest_main.dir
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/gtest.dir
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/tests_algobot.dir
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/rebuild_cache.dir
+/home/dario/Downloads/ejercitacion_uso_clases/CMakeFiles/tests_ejercitacion.dir

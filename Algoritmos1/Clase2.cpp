@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Pedirle al usuario la nota de 10 estudiantes y calcular la suma de todas las notas junto con su promedio
 void Ejercicio1(){
 	float suma = 0;
 	int aux = 0;
@@ -15,6 +16,7 @@ void Ejercicio1(){
 	cout << "El promedio de las 10 notas es: " << suma/10.0 << endl;
 }
 
+// Ingresar la nota de n estudiantes y calcular la suma de todas las notas junto con su promedio
 void Ejercicio2(){
 	float suma = 0;
 	float i = 0;
@@ -33,6 +35,9 @@ void Ejercicio2(){
 	cout << "El promedio de todas las notas es: " << suma/i << endl;
 }
 
+// Ingresar la nota de almenos 6 alumno e indicar si se puede aumentar la cantidad de plazas del curso.
+// Esto sucede si la cantidad de aprobados es mayor al 66.6% de los inscriptos del curso
+// Un alumno aprobado es uno cuya nota es 6 o mas.
 void Ejercicio3(){
 	float i = 0;
 	float aprobados = 0;
@@ -58,6 +63,7 @@ void Ejercicio3(){
 	}
 }
 
+// Hacer una funcion que pida un numero en binario digito por digito y lo transforme en decimal
 void Ejercicio4(){
 	int suma = 0;
 	int mult = 1;
@@ -77,13 +83,13 @@ void Ejercicio4(){
 
 int main () {
 	
-	//Ejercicio1();
+	Ejercicio1();
 	
-	//Ejercicio2();
+	Ejercicio2();
 	
 	Ejercicio3();
 	
-	//Ejercicio4();
+	Ejercicio4();
 	
 	return 0;
 }

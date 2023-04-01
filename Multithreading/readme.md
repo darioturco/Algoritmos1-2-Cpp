@@ -1,0 +1,1 @@
+Resolucion de algunos ejercicios en C/C++ sobre multithreading y paralelismo de la carrera de computacion de la UBA.

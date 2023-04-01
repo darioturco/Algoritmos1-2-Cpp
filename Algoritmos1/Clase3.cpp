@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Funcion que indica si dado un vector v y un numero a, todos los elementos de v son divisibles por a
 bool divide(const vector<int>& vec, int a){ // 2.1
 	bool res = true;
 	for(int i = 0 ; i<vec.size() ; i++){
@@ -12,6 +13,7 @@ bool divide(const vector<int>& vec, int a){ // 2.1
 	return res;
 }
 
+// Funcion que devuelve el mayor elemento de un vector v
 int mayor(const vector<int>& vec){ // 2.2
 	int max = -1;
 	if(vec.size() > 0){	
@@ -23,6 +25,7 @@ int mayor(const vector<int>& vec){ // 2.2
 	return max;
 }
 
+// Funcion que invierte un vector v pasado por referencia
 vector<int> reverso(const vector<int>& vec){ // 2.3
 	vector<int> res;
 	for(int i = vec.size()-1 ; i >= 0 ; i--){
@@ -31,6 +34,7 @@ vector<int> reverso(const vector<int>& vec){ // 2.3
 	return res;
 }
 
+// Funcion que cada elemento de un vector v lo mueve k posiciones a la derecha, en caso de que un elemento caiga al final del vector, se deve volver al inicio
 vector<int> rotar(const vector<int>& vec, int k){ // 2.4
 	int largo = vec.size();
 	vector<int> res(largo);
@@ -42,6 +46,7 @@ vector<int> rotar(const vector<int>& vec, int k){ // 2.4
 	return res;
 }
 
+// Funcion que indica si un vector esta ordenado o no
 bool estaOrdenado(const vector<int>& vec){ // 2.5
 	bool res = true;
 	for(int i = 0 ; i<vec.size()-1 ; i++){
@@ -50,6 +55,7 @@ bool estaOrdenado(const vector<int>& vec){ // 2.5
 	return res;
 }
 
+// Funcion que imprime un vector vec por consola
 void muestraVector(const vector<int>& vec){ // 2.6
 	int i;
 	cout << "[";
@@ -59,14 +65,17 @@ void muestraVector(const vector<int>& vec){ // 2.6
 	cout << vec[i] << "]" << endl;
 }
 
-int vectorANumero(const vector<int>& vec, int sig){
+// Funcion que pasa un vector, el cual representa los digitos de un numero en base 10, a ese numero
+// Ademas ese numero tendra un signo
+int vectorANumero(const vector<int>& vec, int signo){
 	int res = 0, mult = 1;
 	for(int i = vec.size()-1 ; i >= 0 ; i--){
 		res += vec[i]*mult;
 		mult *= 10;
 	}
-	return sig*res;
+	return signo * res;
 }
+
 void agregaRes(vector<int>& res, vector<int>& aux, int& signo){
 	res.push_back(vectorANumero(aux, signo)); //vuelca el numero a res
 	signo = 1;

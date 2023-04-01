@@ -1,0 +1,12 @@
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/edit_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej5_correrValgrind.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej3_correrValgrind.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej7.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/gtest_main.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej6.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/rebuild_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej2_correrValgrind.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/gtest.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej1.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej3.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase4/CMakeFiles/ej4.dir

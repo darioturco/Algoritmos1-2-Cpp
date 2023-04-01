@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Funcion que imprime un vector en consola
 void imprimeVector(const vector<string>& vec){
 	for(int i = 0 ; i<vec.size() ; i++){
 		cout << vec[i] << endl;

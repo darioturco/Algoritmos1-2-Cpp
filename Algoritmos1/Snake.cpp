@@ -87,7 +87,7 @@ int serpiente(){
 		gotoxy(posx[i], posy[i]);
 		cout << "*";
 	}
-	if(posx[pun1] == 0 || posx[pun1] == sizex-1 || posy[pun1] == 0 || posy[pun1] == sizey-1 || seToca(posx[pun1], posy[pun1]) == 1){// if choca
+	if(posx[pun1] == 0 || posx[pun1] == sizex-1 || posy[pun1] == 0 || posy[pun1] == sizey-1 || seToca(posx[pun1], posy[pun1]) == 1){// if choca debe perder
 		cout << "Fin del juego";
 		return 1;
 	}else{

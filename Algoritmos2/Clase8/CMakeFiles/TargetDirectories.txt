@@ -1,0 +1,7 @@
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/rebuild_cache.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/edit_cache.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/correrValgrind.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/correrTests_ext.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/correrTests.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/gtest_main.dir
+/mnt/sda4/UBA/Algoritmos 2/Clase8/CMakeFiles/gtest.dir

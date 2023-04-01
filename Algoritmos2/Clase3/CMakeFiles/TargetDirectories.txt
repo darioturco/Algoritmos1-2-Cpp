@@ -1,0 +1,9 @@
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/edit_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/ej_testing.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/solucion_testing.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/rebuild_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/gtest.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/gtest_main.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/ej2.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/ej1.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase3/CMakeFiles/ej3.dir

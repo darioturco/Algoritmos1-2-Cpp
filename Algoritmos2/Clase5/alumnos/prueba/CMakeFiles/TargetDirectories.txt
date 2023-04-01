@@ -1,0 +1,6 @@
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/rebuild_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/correrValgrind.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/correrTests.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/gtest.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/edit_cache.dir
+/mnt/sda3/UBA/Algoritmos 2/Clase5/alumnos/prueba/CMakeFiles/gtest_main.dir

@@ -1,0 +1,6 @@
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/gtest.dir
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/gtest_main.dir
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/correrValgrind.dir
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Docus/UBA/algo2/labo/clase05 2020 listas/ejercitacion/alumnos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
