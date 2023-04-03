@@ -81,6 +81,8 @@ void agregaRes(vector<int>& res, vector<int>& aux, int& signo){
 	signo = 1;
 	aux.clear(); //limpia el acumulador
 }
+
+// Lee un archivo con numeros separados por espacios y los deja en un vector cono enteros
 vector<int> leerVector(string nombreArchivo){ // 3.1
 	char car;
 	int signo = 1;
@@ -106,6 +108,7 @@ vector<int> leerVector(string nombreArchivo){ // 3.1
 	return res;
 }
 
+// Dado un vector vec, guarda ese vector en el archivo de nombre "nombreArchivo"
 void guardarVector(const vector<int>& vec, string nombreArchivo){ // 3.2
 	int i = 0;
 	ofstream archivo;
@@ -122,6 +125,7 @@ void guardarVector(const vector<int>& vec, string nombreArchivo){ // 3.2
 	archivo.close();	
 }
 
+// Elimina todas las apariciones del ultimo elemento de vec y devuelve la cantidad de apariciones que este elemento tenia
 int cuentaEliminaUltimoElemento(vector<int>& vec){
 	vector<int> res;
 	int cant = 1;
@@ -137,9 +141,9 @@ int cuentaEliminaUltimoElemento(vector<int>& vec){
 	vec = res;
 	return cant;
 }
+ 
 void cantApariciones(string nombreArchivo){ // 3.3
 	vector<int> vec = leerVector(nombreArchivo);
-	vector<int> res;
 	string escribeArchivo = "archivos/out/" + nombreArchivo;
 	int i = 0, num = 0, cant = 0;
 	ofstream archivo;

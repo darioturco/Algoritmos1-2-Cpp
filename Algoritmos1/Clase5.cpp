@@ -11,6 +11,7 @@ void imprimeVector(const vector<string>& vec){
 	}
 }
 
+// Separa el string s por el delimitador "delim"
 vector<string> split(const string& s, char delim){
 	vector<string> res;
 	string aux;
@@ -49,6 +50,7 @@ bool subsecuencia(string s, string t){
 	return j == t.size();
 }
 
+// Devuelve si dos string son analgramas o sea uno es permutacion de otro
 bool sonAnagramas(string s, string t){
 	if (s.size() != t.size()) return false;
 	int ssum = 0;
@@ -74,6 +76,7 @@ vector< vector<string> > agruparAnagramas(const vector<string>& vec){
 	return res;
 }
 
+// Indica si un string s es palindromo (capicua)
 bool esPalindromo(const string& s){
 	bool res = true;
 	for(int i = 0 ; i<s.size()/2 ; i++){
@@ -82,6 +85,7 @@ bool esPalindromo(const string& s){
 	return res;
 }
 
+// Indica si el string s tiene elementos repetidos
 bool tieneRepetidos(const string& s){
 	bool res = false;
 	for(int i = 0 ; i<s.size() ; i++){

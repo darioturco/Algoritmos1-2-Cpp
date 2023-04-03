@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// Funcion que devuelve si existe un pico en el vector vec
+// Un vector tiene un pico si existe un indice i cuyos elementos contiguos(i-1, i+1) son menores a vec[i]
 bool pico(const vector<int>& vec){
 	bool res = false;
 	for(int i = 1; i<vec.size(); i++){
@@ -31,7 +33,7 @@ int minimo(const vector<int>& vec, int l, int r){
 	return res;
 }
 
-// Funcion qeu ordena un vector vec
+// Funcion que ordena un vector vec
 void ordena(vector<int>& vec){
 	int aux, min;
 	for(int i = 0 ; i<vec.size()-1 ; i++){
